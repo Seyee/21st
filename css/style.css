@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
@@ -9,23 +10,29 @@ body {
     background-image: url(https://i.ibb.co/mHgxzjf/Story-Analysis-4.png);
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: allow;
     font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 
 /* NAVBAR */
+
 .navbar {
+    top: 0;
+    position: fixed;
+    display: flex;
+    justify-content: left;
     background-color: black; 
-    padding: 0; 
+    padding-left: 3px;
     margin: 0;
     box-shadow: 1px 1px 5px rgb(70, 70, 70);
+    z-index: 1;
 }
 
 .navdiv {
-    display: flex;
-    justify-content: flex-start; 
-    align-items: center; 
     padding: 20px; 
 }
 
@@ -63,8 +70,9 @@ body {
     font-size: 43px;
 }
 
-.intro .a p {
-    text-shadow: 2px 2px 3px gray;
+.intro .a p {   
+    text-shadow:
+    -1px  0   0 white;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     color: white;
@@ -87,16 +95,51 @@ body {
     font-size: 19px;
 }
 
+.intro .d p:first-line {
+    text-shadow:
+    -1px  1px 0 white,
+    -1px  0   0 white;
+}
 
+.intro .d p {
+    text-shadow: 0px 2px 3px rgb(0, 0, 0);
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+    font-size: 19px;
+}
 
-/* MEMBERS SECTION */
+.button {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+a.button {
+    margin-top: 50px;
+    padding: 10px 25px;
+    background-color: none;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white; 
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 250px;
+}
+
+a.button:hover {
+    color: gray;
+}
+
+/* MEMBERS */
 .members-section {
     padding: 50px;
     text-align: center;
 }
 
 .members-section h2 {
-    margin-top: 250px;
     font-size: 28px;
     color: white;
     margin-bottom: 20px;
@@ -112,7 +155,7 @@ body {
 .member-card {
     width: 300px; 
     height: 300px;
-    background-color: beige;
+    background-color: #694f27;
     color: #EDF2F4;
     border-radius: 10px;
     padding: 20px;
@@ -136,7 +179,7 @@ body {
 }
 
 .member-card h3 {
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 12px;
     margin: 10px 0;
 }
