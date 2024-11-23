@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(50, 50, 50);
+    overflow: allow;
+}
+
+
+
+h1 {
+    color: white;
+}
+
+
+.trail {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #EF233C;
+    border-radius: 50%;
+    pointer-events: none;
+    animation: fadeOut 1s ease-out forwards;
+    z-index: 3; 
+}
+
+@keyframes fadeOut {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+}
+
+img {
+    width: 650px;
+}
+
+#name {
+    position: relative;
+    text-align: center;
+}
+
+/* NAVBAR */
+.socials {
+    background-color: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    left: 47px;
+    bottom: 20px;
+}
+
+.navdiv {
+    border-bottom-left-radius: 20px;
+    padding-left: 20px;
+    margin-top: -20px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2B2D42;
+}
+
+li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+li a {
+    text-decoration: none;
+    position: relative;
+    right: 20px;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    margin-right: 25px;
+    transition: transform .5s ease;
+}
+
+a:before, a:after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    top: 50%;
+    margin-top: -0.5px;
+    background: #fff;
+}
+
+a:before {
+    left: -2.5px;
+}
+
+a:after {
+    right: 2.5px;
+    background: #fff;
+    transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+a:hover:before {
+    background: #fff;
+    width: 100%;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+a:hover:after {
+    background: transparent;
+    width: 100%;
+    transition: 0s;
+}
+
+.navbar {
+    background-color: none;
+    font-family: "Comic Sans MS", cursive;
+    position: absolute;
+    top: 10px;
+    right: -20px;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+li a {
+    text-decoration: none;
+    position: relative;
+    right: 20px;
+    color: #EDF2F4;
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 25px;
+    transition: transform .5s ease;
+}
+
+
+/* MEMBERS SECTION */
+.members-section {
+    padding: 50px;
+    background-color: gray;
+    text-align: center;
+}
+
+.members-section h2 {
+    margin-top: 30px;
+    font-size: 28px;
+    color: #EF233C;
+    margin-bottom: 20px;
+}
+
+.members-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px); 
+    gap: 20px;
+    justify-content: center;
+}
+
+.member-card {
+    width: 300px; 
+    height: 300px;
+    background-color: #2B2D42;
+    color: #EDF2F4;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden; 
+    box-sizing: border-box; 
+}
+
+.member-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.member-card img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.member-card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.member-card p {
+    font-size: 16px;
+}
+
