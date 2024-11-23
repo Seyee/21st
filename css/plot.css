@@ -23,10 +23,11 @@ html {
     top: 0;
     position: fixed;
     display: flex;
-    justify-content: left;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%; 
     background-color: black; 
-    padding-left: 3px;
-    margin: 0;
+    padding: 0 20px; 
     box-shadow: 1px 1px 5px rgb(70, 70, 70);
     z-index: 1;
 }
@@ -36,13 +37,16 @@ html {
 }
 
 .navdiv ul {
-    margin: 0; 
+    margin: 0;
     display: flex;
-    margin-left: 800px;
+    margin-left: auto; 
+    padding: 0; 
 }
+
 
 .navdiv li {
     margin-right: 20px; 
+    list-style: none;
 }
 
 .navdiv a {
