@@ -6,10 +6,11 @@
 }
 
 body {
-    background-image: url(https://i.ibb.co/mHgxzjf/Story-Analysis-4.png);
+    background-image: url(https://i.ibb.co/fdbtCs2/Add-a-subheading-9.png);
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;
+    overflow: hidden;
 }
 
 html {
@@ -66,4 +67,21 @@ html {
 .navdiv a:hover {
     color: gray;
     transform: scale(1.1); 
+}
+
+h1 {
+    font-family: American Typewriter, serif;
+    letter-spacing: 3px;
+    color: rgb(237, 230, 198);
+    margin-left: 310px;
+    margin-top: 220px;
+}
+
+.setting pre {
+    margin-top: 250px;
+    font-size: 30px;
+    margin-right: 50px;
+    color: white;
+    text-shadow: 2px 2px 3px rgba(246, 153, 22, 0.59);
+    font-style: italic;
 }

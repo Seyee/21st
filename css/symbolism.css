@@ -6,9 +6,9 @@
 }
 
 body {
-    background-image: url(https://i.ibb.co/mHgxzjf/Story-Analysis-4.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url(https://i.ibb.co/6ZfKrHM/Untitled-1919-x-1800-px-2.png), url(https://i.ibb.co/mHgxzjf/Story-Analysis-4.png);
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -66,4 +66,27 @@ html {
 .navdiv a:hover {
     color: gray;
     transform: scale(1.1); 
+}
+
+/*SYMBO*/
+
+h1 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 5px rgb(245, 199, 83);
+    text-align: center;
+    color: wheat;
+    margin-top: 230px;
+}
+
+pre {
+    margin-right: 65px;
+    padding-bottom: 80px;
+    letter-spacing: 1px;
+    margin-top: 135px;
+    font-size: 17.7px;
+    color: rgb(244, 214, 164);
+    font-family: s;
+    text-shadow: 2px 1px 0px rgb(112, 77, 45);
+    text-align: center;
 }

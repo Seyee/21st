@@ -6,9 +6,9 @@
 }
 
 body {
-    background-image: url(https://i.ibb.co/mHgxzjf/Story-Analysis-4.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url(https://i.ibb.co/GckSm5n/Untitled-design-4.png), url(https://i.ibb.co/mHgxzjf/Story-Analysis-4.png);
+    background-size: contain, cover;
+    background-repeat: no-repeat, no-repeat;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -66,4 +66,26 @@ html {
 .navdiv a:hover {
     color: gray;
     transform: scale(1.1); 
+}
+
+/*PLOT*/
+h1 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 5px rgb(245, 199, 83);
+    letter-spacing: 15px;
+    text-align: center;
+    color: wheat;
+    margin-top: 115px;
+}
+
+pre {
+    margin-right: 65px;
+    letter-spacing: 1px;
+    margin-top: 100px;
+    font-size: 16px;
+    color: rgb(115, 104, 84);
+    font-family: s;
+    text-shadow: 1px 1px 3px rgb(227, 206, 149);
+    text-align: center;
 }

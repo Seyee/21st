@@ -145,6 +145,7 @@ a.button:hover {
     background-size: cover;
     padding: 50px;
     text-align: center;
+    box-shadow: -5px -5px 10px rgb(147, 115, 85);
 }
 
 .members-section h2 {
