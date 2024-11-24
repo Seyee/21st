@@ -6,8 +6,6 @@
 }
 
 body {
-    background-image: url(https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1msKEu.img);
-    background-size: cover;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -134,7 +132,7 @@ a.button {
     display: inline-block;
     text-align: center;
     cursor: pointer;
-    margin-bottom: 50px;
+    margin-bottom: 600px;
 }
 
 a.button:hover {
@@ -143,6 +141,8 @@ a.button:hover {
 
 /* MEMBERS */
 .members-section {
+    background: url(https://i.ibb.co/kmBwng8/Untitled-design-1.jpg);
+    background-size: cover;
     padding: 50px;
     text-align: center;
 }

@@ -6,10 +6,12 @@
 }
 
 body {
-    background-image: url(https://i.ibb.co/mHgxzjf/Story-Analysis-4.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: 'Poppins', sans-serif;
+    background: url(https://i.ibb.co/z8G4Mn2/Your-paragraph-text-7.png) repeat fixed 100%, 
+                      url(https://i.ibb.co/mHgxzjf/Story-Analysis-4.png) repeat fixed 100%;
+    background-size: contain, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position: top center, center;
+    font-family: 'Poppins', sans-serif
 }
 
 html {
@@ -66,4 +68,61 @@ html {
 .navdiv a:hover {
     color: gray;
     transform: scale(1.1); 
+}
+
+/*STORY*/
+
+.container {
+    margin-top: 130px;
+}
+
+.title {
+    text-align: center;
+    margin-right: 580px;
+    font-family: URW Chancery L, cursive;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 3px gray;
+    margin-bottom: 2px;
+    color: white;
+}
+
+.main-title {
+    text-align: center;
+    font-family: Snell Roundhand, cursive;
+    font-size: 100px;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px 3px gray;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 580px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.subtitle {
+    text-align: center;
+    margin-right: 580px;
+    font-family: cursive;
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.author {
+    text-align: center;
+    text-shadow: 2px 2px 3px gray;
+    margin-right: 580px;
+    font-size: 25PX;
+    font-style: italic;
+    color: white;
+}
+
+.story pre {
+    font-size: 15px;
+    margin-top: 50px;
+    text-align: center;
+    margin-right: 600px;
+    text-shadow: 2px 2px 3px gray;
+    font-family: 'Poppins', sans-serif;
+    color: white;
 }
