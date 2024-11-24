@@ -153,6 +153,23 @@ html {
     transition: 0.3s;
 
 }
+.member-5 {
+    background: url(https://ae01.alicdn.com/kf/HTB1bobpKXXXXXbLaXXXq6xXFXXX8/Horizontal-Hot-Sale-Free-Shipping-leather-print-Art-fabric-Photo-Studio-Backdrops-PC-Painted-baby-Background.jpg_640x640.jpg);
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.member-6 {
+    background: url(https://southlandrealtors.com/wp-content/uploads/iStock-11379962072.jpg);
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.member-7 {
+    background: url(https://ae01.alicdn.com/kf/HTB1bobpKXXXXXbLaXXXq6xXFXXX8/Horizontal-Hot-Sale-Free-Shipping-leather-print-Art-fabric-Photo-Studio-Backdrops-PC-Painted-baby-Background.jpg_640x640.jpg);
+    background-size: cover;
+    transition: 0.3s;
+}
 
 .member-1:hover {
     box-shadow: 3px 3px 5px rgb(134, 134, 134);
@@ -166,4 +183,12 @@ html {
 .member-4:hover {
     box-shadow: 3px 3px 5px rgb(134, 134, 134);
 }
-
+.member-5:hover {
+    box-shadow: 3px 3px 5px rgb(134, 134, 134);
+}
+.member-6:hover {
+    box-shadow: 3px 3px 5px rgb(134, 134, 134);
+}
+.member-7:hover {
+    box-shadow: 3px 3px 5px rgb(134, 134, 134);
+}
