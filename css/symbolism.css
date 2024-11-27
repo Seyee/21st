@@ -10,6 +10,7 @@ body {
     background-size: cover, cover;
     background-repeat: no-repeat, no-repeat;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 html {
@@ -75,7 +76,7 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
     text-shadow: 1px 1px 5px rgb(245, 199, 83);
     text-align: center;
-    color: wheat;
+    color: rgb(253, 235, 203);
     margin-top: 230px;
 }
 
@@ -85,8 +86,15 @@ pre {
     letter-spacing: 1px;
     margin-top: 135px;
     font-size: 17.7px;
-    color: rgb(244, 214, 164);
+    color: rgb(234, 221, 199);
     font-family: s;
-    text-shadow: 2px 1px 0px rgb(112, 77, 45);
+    text-shadow:     -1px -1px 0 #6a5d2b,
+    0   -1px 0 #6a5d2b  ,
+    1px -1px 0 #6a5d2b  ,
+    1px  0   0 #6a5d2b  ,
+    1px  1px 0 #6a5d2b  ,
+    0    1px 0 #6a5d2b  ,
+   -1px  1px 0 #6a5d2b  ,
+   -1px  0   0 #6a5d2b  ;
     text-align: center;
 }
