@@ -76,6 +76,10 @@ html {
     font-size: 70px;
 }
 
+.members-section a {
+    text-decoration: none;
+}
+
 .intro .a p {   
     letter-spacing: 2px;
     text-shadow:
