@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troll - A Short Story</title>
+    <link rel="stylesheet" href="css/kups.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Troll</h1>
+            <h2>A Short Story by Nicko Manipis de Guzman</h2>
+        </header>
+        <main>
+            <section class="plot">
+                <h3>Plot</h3>
+                <p>The story "Troll" is about an unemployed millennial who applied for a job with an outsourcing firm, only to find out that they hire trolls.</p>
+            </section>
+            <section class="characters">
+                <h3>Characters</h3>
+                <ul>
+                    <li class="character" data-name="Kiko">Kiko: Snarky and foul-mouthed</li>
+                    <li class="character" data-name="Ronny">Ronny: Conversational</li>
+                    <li class="character" data-name="Jessica">Jessica: Always dramatic</li>
+                </ul>
+            </section>
+            <section class="setting">
+                <h3>Setting</h3>
+                <p>TAYO Networking Inc. Main Headquarters, #1 Balimbing Street, WE Development Corporation Village Quezon City house.</p>
+            </section>
+            <section class="conflict">
+                <h3>Conflict</h3>
+                <p>Person vs. Self: The protagonist's struggle between his ambition for wealth and his guilt for being a media troll.</p>
+            </section>
+            <section class="symbolism">
+                <h3>Symbolism</h3>
+                <div class="mask">
+                    <div class="mask-front"></div>
+                    <div class="mask-back"></div>
+                </div>
+                <p>The story is symbolized by a mask, representing how the character changes his personality to fit his job requirements.</p>
+            </section>
+            <section class="theme">
+                <h3>Theme</h3>
+                <p>Life is always full of ways to cope, and a change of lifestyle could be the start of greater things to come. Change begins with you, not with others. You should never pretend to be someone you are not.</p>
+            </section>
+            <section class="impact">
+                <h3>Social Impact</h3>
+                <p>This story provides social awareness about the impact and influence of social media.</p>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
